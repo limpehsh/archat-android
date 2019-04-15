@@ -1,6 +1,6 @@
 # ARchat Android - Made with React Native
  
-> The goals of ARchat were to build a social app that implemented chat functionality, tracking the updated locations of the users and implementing some form of AR functionality that relates to the task.
+> The goals of ARchat were to build a social app that implemented chat functionality, tracking the locations of the users in real-time and an implementation of AR that aids in finding users. When users point their phones towards the user they are chatting with in the AR View, that user's avatar will pop up.
 
 > Here is the front end made with React Native targeting Android.
 
