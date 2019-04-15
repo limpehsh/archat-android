@@ -1,0 +1,11 @@
+rootProject.name = 'ARchat'
+include ':react-native-sensors'
+project(':react-native-sensors').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-sensors/android')
+include ':react-native-simple-compass'
+project(':react-native-simple-compass').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-simple-compass/android')
+include ':react-native-camera'
+project(':react-native-camera').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-camera/android')
+include ':react-native-maps'
+project(':react-native-maps').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-maps/lib/android')
+
+include ':app'
